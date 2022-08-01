@@ -12,7 +12,7 @@ import { Routes } from 'react-router-dom';
   <Routes>
 
  <Route path='/' element={<Index/>}/>
- <Route path='/home' element={<Home/>}/>
+ <Route path='/home' element={ <div id='home-page'>Home Page</div>}/>
  <Route path='*'element={<NotFound/>}/> 
 
 
