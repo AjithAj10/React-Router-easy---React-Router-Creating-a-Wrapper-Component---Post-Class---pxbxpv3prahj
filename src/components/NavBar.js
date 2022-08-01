@@ -9,9 +9,7 @@ export const NavBar = () =>{
         <Link to="/">index</Link>
         </li>
         <li className='home-link'>
-        <Link to='/home'>
-       home
-        </Link>
+        <Link to='/home'>home</Link>
        </li>
     </ul>
 </nav>
